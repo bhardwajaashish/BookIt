@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/img"
+            android:scaleType="fitXY"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview1"
+            android:textColor="#FFFFFF"
+            android:background="@android:color/transparent"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="300dp"
+            android:textAlignment="textEnd"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="250dp"
+            android:id="@+id/text"
+            android:textAlignment="textEnd"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:background="@android:color/transparent"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/scroll"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/park"
+                android:scaleType="fitXY"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/wifi"
+                android:scaleType="fitXY"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/dine"
+                android:scaleType="fitXY"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/doctor"
+                android:scaleType="fitXY"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ac"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7d56ac"
+        android:text="BOOK"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/button"
+
+        />
+
+
+
+</LinearLayout>

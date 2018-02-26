@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can contact us on our helpline numbers:\n"
+        android:id="@+id/textc"
+        android:textSize="25dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8950268721"
+        android:textSize="20dp"
+        android:id="@+id/contact1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9468295595"
+        android:textSize="20dp"
+        android:id="@+id/contact2"/>
+</LinearLayout>

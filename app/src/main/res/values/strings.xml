@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Book It</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hotel1">Hotel Bella Vista\nSec 1, Chandigarh</string>
+    <string name="hotel2">Hotel Amara\nSec 43, Chandigarh</string>
+    <string name="hotel3">The Aroma \nSec 22 C, Chandigarh</string>
+    <string name="hotel4">Hotel Sun Bean \nSec 22 B, Chandigarh</string>
+    <string name="hotel5">Hotel Park Grand \nSec 43, Chandigarh</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="refer">Invite your friends.They get free BOOK IT money worth 100 on signup.</string>
+
+    <string-array name="header_titles">
+        <item>How do I create a booking through BOOK IT?</item>
+        <item>How do I check the status of my current bookings?</item>
+        <item>What are the valid ID proofs that I should carry?</item>
+    </string-array>
+
+    <string-array name="h1_items">
+        <item>You can simply book a room through our app or by calling us on our 24*7 Customer Helpline.</item>
+    </string-array>
+    <string-array name="h2_items">
+        <item>On the app, you can go to the "My Bookings" section to view the status of your bookings.
+        You can also call on our Customer Helpline number to know the status of your bookings.
+        </item>
+    </string-array>
+    <string-array name="h3_items">
+        <item>You need to carry a valid govt. issued address ID proof with photo with address not in he same city as the hotel. Some of the valid id proofs are:
+       \n1. Driving license
+        \n2. Voter id card
+        \n3. Passport</item>
+    </string-array>
+
+</resources>
